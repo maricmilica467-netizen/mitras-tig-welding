@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitras TIG Welding</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1f1f1f;
+            color: #ffffff;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            background-color: #111;
+        }
+
+        header img {
+            max-width: 160px;
+            margin-right: 30px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin: 0;
+        }
+
+        header h2 {
+            font-weight: normal;
+            margin-top: 10px;
+            color: #cccccc;
+        }
+
+        .line {
+            height: 3px;
+            width: 80px;
+            background-color: #ff6a00;
+            margin: 30px 0;
+        }
+
+        section {
+            padding: 40px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .box {
+            background-color: #2a2a2a;
+            padding: 20px;
+            border-left: 4px solid #ff6a00;
+        }
+
+        .contact {
+            background-color: #111;
+            padding: 40px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #777;
+            font-size: 14px;
+        }
+
+        a {
+            color: #ff6a00;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Mitras TIG Welding logo">
+    <div>
+        <h1>Mitras TIG Welding</h1>
+        <h2>TIG / MIG / MAG zavarivanje</h2>
+        <div class="line"></div>
+        <p>Precizno zavarivanje • Kvalitet bez kompromisa</p>
+    </div>
+</header>
+
+<section>
+    <h2>O nama</h2>
+    <div class="line"></div>
+    <p>
+        Mitras TIG Welding je specijalizovana usluga profesionalnog zavarivanja.
+        Fokusirani smo na preciznost, čistoću vara i dugotrajna rešenja za industriju
+        i privatne klijente.
+    </p>
+</section>
+
+<section>
+    <h2>Usluge</h2>
+    <div class="line"></div>
+    <div class="services">
+        <div class="box">TIG zavarivanje inoxa</div>
+        <div class="box">TIG zavarivanje aluminijuma</div>
+        <div class="box">MIG / MAG zavarivanje</div>
+        <div class="box">Industrijske konstrukcije</div>
+        <div class="box">Popravke i dorade</div>
+        <div class="box">Precizni metalni radovi</div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Kontakt</h2>
+    <div class="line"></div>
+    <p>👤 <strong>Vladimir Petrović</strong></p>
+    <p>📞 <a href="tel:+381612911414">061 291 1414</a></p>
+    <p>📍 Vrbovac</p>
+    <p>📧 <a href="mailto:vladimir.petrovic.vbps@gmail.com">vladimir.petrovic.vbps@gmail.com</a></p>
+    <p>📸 Instagram: <a href="https://www.instagram.com/mitras_tig_welding" target="_blank">@mitras_tig_welding</a></p>
+</section>
+
+<footer>
+    © 2026 Mitras TIG Welding • Sva prava zadržana
+</footer>
+
+</body>
+</html>
